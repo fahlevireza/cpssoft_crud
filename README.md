@@ -1,16 +1,16 @@
 # cpssoft_crud
 
-A new Flutter project.
+# Penggunaan App
+- Halaman pertama aplikasi menampilkan list User yang sudah ada, dan berurutan sesuai nama User dengan urutan abjad A - Z.
+- Tekan tombol tambah dengan logo "+" untuk menambahkan User.
+- Masukan data User lalu tekan tombol "Save" untuk menyimpan,
+- Cari User berdasarkan nama pada fitur "Search".
+- Filter daftar User berdasarkan "Kota" dengan menekan tombol filter dibagian atas lalu dipilih kota.
 
-## Getting Started
+# Teknologi
+- GetX untuk state management dan route navigation.
+- Pubspec Assist untuk dependency injection.
+- http untuk consume API.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Tampilan App
+- Aplikasi yang saya buat hanya menapilkan 2 halaman, yaitu halaman "Home" dan halaman "Add User", agar memudahkan user saat menggunakan aplikasi dengan tidak membuat halaman terlalu banyak, dan komponen-komponen pada 2 halaman tersebut menurut saya cukup user friendly dengan tidak membuat terlalu banyak komponen yang ada pada setiap halaman.
